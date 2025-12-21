@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+	install|upgrade)
+		if [ -d /usr/bin/testing.sh ]; then
+			rm -rf /usr/bin/testing.sh
+		fi
+		;;
+	esac
+
+#DEBHELPER#
+
+exit 0

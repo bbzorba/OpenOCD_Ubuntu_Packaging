@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+# Ensure upgrades can replace the mistakenly-created directory with a file.
+# Previous packaging erroneously installed testing.sh as /usr/bin/testing.sh/testing.sh.
+case "$1" in
+	install|upgrade)
+		if [ -d /usr/bin/testing.sh ]; then
+			rm -rf /usr/bin/testing.sh
+		fi
+		;;
+	esac
+
+
+
+exit 0
