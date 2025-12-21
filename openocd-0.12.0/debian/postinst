@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+printf "this is a test from Baris Berk Zorba\n"
+exit 0

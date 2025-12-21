@@ -1,0 +1,28 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package openocd
+dpkg-buildpackage: info: source version 0.12.0-1build2
+dpkg-buildpackage: info: source distribution noble
+dpkg-buildpackage: info: source changed by Julian Andres Klode <juliank@ubuntu.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: verifying ./openocd_0.12.0.orig.tar.bz2.asc
+gpgv: Signature made Sat 14 Jan 2023 10:53:44 PM CET
+gpgv:                using DSA key 3E8D4B26AADC9DA108082673AA2DC2AEA5F3DB56
+gpgv: Note: signatures using the SHA1 algorithm are rejected
+gpgv: Can't check signature: No public key
+dpkg-source: warning: cannot verify upstream tarball signature for ./openocd_0.12.0.orig.tar.bz2: no acceptable signature found
+dpkg-source: info: building openocd using existing ./openocd_0.12.0.orig.tar.bz2
+dpkg-source: info: building openocd using existing ./openocd_0.12.0.orig.tar.bz2.asc
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: warning: executable mode 0775 of 'testing.sh' will not be represented in diff
+dpkg-source: info: local changes detected, the modified files are:
+ openocd-0.12.0/testing.sh
+dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/openocd_0.12.0-1build2.diff.ansscr
+dpkg-source: info: Hint: make sure the version in debian/changelog matches the unpacked source tree
+dpkg-source: info: you can integrate the local changes with dpkg-source --commit
+dpkg-buildpackage: error: dpkg-source -b . subprocess returned exit status 2
