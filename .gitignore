@@ -1,0 +1,11 @@
+# Build artifacts
+*.deb
+*.changes
+*.build
+*.buildinfo
+*.dsc
+
+# Quilt / dpkg
+.debhelper/
+debian/*.log
+debian/*.substvars
