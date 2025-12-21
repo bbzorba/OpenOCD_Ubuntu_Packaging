@@ -1,1 +1,1 @@
-testing.sh usr/bin/
+debian/scripts/testing.sh usr/bin/testing.sh
