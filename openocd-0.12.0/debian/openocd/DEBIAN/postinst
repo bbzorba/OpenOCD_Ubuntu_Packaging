@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-
-echo "this is a test from Baris Berk Zorba"
-
-
-
-exit 0

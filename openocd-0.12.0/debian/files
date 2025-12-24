@@ -1,3 +1,1 @@
-openocd-dbgsym_0.12.0-1build2_amd64.ddeb debug optional automatic=yes
-openocd_0.12.0-1build2_amd64.buildinfo embedded optional
-openocd_0.12.0-1build2_amd64.deb embedded optional
+openocd_0.12.0-1build2+bbzorba1_source.buildinfo embedded optional

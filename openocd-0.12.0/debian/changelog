@@ -1,3 +1,10 @@
+openocd (0.12.0-1build2+bbzorba1) noble; urgency=medium
+
+  [ bbzorba ]
+  * Modified package for Canonical interview task
+
+ -- bbzorba <bbzorba@hotmail.com>  Mon, 22 Dec 2025 23:52:14 +0100
+
 openocd (0.12.0-1build2) noble; urgency=high
 
   * No change rebuild against libgpiod2t64, libjim0.82t64.

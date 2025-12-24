@@ -1,2 +1,3 @@
 no-duplicate-udev.patch
 remove-jimtcl-configure.patch
+openocd-build-task
