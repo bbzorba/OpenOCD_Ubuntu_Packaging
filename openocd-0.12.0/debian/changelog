@@ -1,3 +1,9 @@
+openocd (0.12.0-12+bbzorbaubuntu1) noble; urgency=medium
+
+  * Added the message for post installation
+
+ -- bbzorba <bbzorba@hotmail.com>  Thu, 25 Dec 2025 00:08:28 +0100
+
 openocd (0.12.0-1build2+bbzorba1) noble; urgency=medium
 
   [ bbzorba ]
